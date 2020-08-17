@@ -1,14 +1,27 @@
 线程同步机制：
-1.同步代码块
-2.同步方法
-    ??那同步锁是谁呢？对于static修饰的方法，同步锁就是this
+    1.同步代码块
+    2.同步方法
+        ??那同步锁是谁呢？对于static修饰的方法，同步锁就是this
                       不是static修饰的，同步锁就是当前方法所在类的方法名加.class
-3.同步锁(reenreanlock重新锁定，比上面两种方法更加强大)
-    lock和unlock方法需要同时出现 用到try finally
-4.特殊域变量（volatile）
-5.局部变量（ThredLocal）
-6.阻塞队列
-7.原子变量
+    3.同步锁(reenreanlock重新锁定，比上面两种方法更加强大)
+        lock和unlock方法需要同时出现 用到try finally
+    4.特殊域变量（volatile）
+    5.局部变量（ThredLocal）
+    6.阻塞队列
+    7.原子变量
 
 线程的死锁：
-满足的条件 1.互斥条件 2.
+    满足的条件 1.互斥条件 2.
+
+死锁处理：
+线程通讯：
+    休眠唤醒：object 休眠唤醒方式等待,看案列 奇数偶数打印 和syncronized配合使用  ；condition 唤醒等待 和lock配合使用
+    CountDownLath方式（其他线程弄完在弄）：看案列选手与教练，教练等到选手到齐开始训练
+    CyclicBarriar方式(所有线程准备完毕开始)
+
+原子类操作：
+    AutoMic
+CAS的ABA问题
+
+线程池：
+    创建方式：Excutor.(4种常见的创建方式)

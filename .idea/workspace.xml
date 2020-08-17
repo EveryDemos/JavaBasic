@@ -1,10 +1,406 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="miaoshaduoxianchengdemo:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6700803-c94f-49fb-ba57-7481ba32daef" name="Default Changelist" comment="" />
+    <list default="true" id="f6700803-c94f-49fb-ba57-7481ba32daef" name="Default Changelist" comment="thred lock">
+      <change afterPath="$PROJECT_DIR$/codegenerator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codegenerator/src/main/java/GeneratorSqlmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codegenerator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codegenerator/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/dao/TbSeckillGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/dao/TbSeckillOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillGoodsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillOrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/config/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/config/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/mapper/TbSeckillGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/mapper/TbSeckillOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-JD-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-addressList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-cooperation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-getOrderInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-myOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-payfail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-paysuccess.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-sampling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-seckill-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-seckill-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-seckillOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-shoplogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-success-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-weixinpay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/pages-zoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/webbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/widget-cartPanelView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/css/widget-jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/autocomplete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/catalogSearch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/list-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/nav-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/productAlso.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/productChoiceness.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/productGuess.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/productInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/productList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/productRelationship.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/shoplist-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/shoplist.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/data/success.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-moon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-moon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-moon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-pc.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-pc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-pc.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-pc.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-tb.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-tb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-tb.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-tb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-touch.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-touch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-touch.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/fonts/icon-touch.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/57b51ea9Nb862ca5e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/cooperation_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/down-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/empty_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/gotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/list.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/login-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/manage-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/photo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/sampling_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/seckillbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/shi_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/shop-intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/shop-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/shop-part.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/title_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/_/y24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/ad1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/ali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/itemlike/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/itemlike/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/itemlike/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/itemlike/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/itemlike/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/itemlike/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/pay/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/phone/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/success-cart/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/success-cart/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/success-cart/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/success-cart/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/zoom/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/zoom/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/zoom/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/zoom/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/zoom/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/assets/img/zoom/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/barrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/brand_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/choosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/duihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-b02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/floor-1-b03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/goods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/interest01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/interest02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/interest03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/interest04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/interest05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/interest06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/like_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/linker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/mod-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/today01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/today02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/today03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/today04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/img/zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/czFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/model/cartModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/addressList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/getOrderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/jquery.slideunlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/login-manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/person-collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/person-footmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/seckill-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/shoplogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/pages/sm-city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/jquery.validate/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/widget/cartPanelView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/widget/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/widget/nav-portal-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/js/widget/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/angularjs/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/angularjs/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/angularjs/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/angularjs/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/normalize/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/sui/sui-append.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/sui/sui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/seckill-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/seckill-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/lock/Reentranlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredcommunication/MainOddEvenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredcommunication/ThredOddAndEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyRunable.java" beforeDir="false" afterPath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyRunable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/MainThredDead.java" beforeDir="false" afterPath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/MainThredDead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/ThredDeadRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/ThredDeadRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thred-create-demo/src/main/resources/thredKnowleage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/thred-create-demo/src/main/resources/thredKnowleage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thred-create-demo/target/classes/com/budi/thred/MyRunable.class" beforeDir="false" afterPath="$PROJECT_DIR$/thred-create-demo/target/classes/com/budi/thred/MyRunable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thred-create-demo/target/classes/com/budi/thredsafe/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/thred-create-demo/target/classes/com/budi/thredsafe/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thred-create-demo/target/classes/thredKnowleage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/thred-create-demo/target/classes/thredKnowleage.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/thred-create-demo/target/" />
+    <ignored path="$PROJECT_DIR$/miaosha-duoxiancheng-demo/target/" />
+    <ignored path="$PROJECT_DIR$/codegenerator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,35 +408,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/resources/thredKnowleage.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredsafe/Ticket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredsafe/MainSafeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,19 +417,57 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jdbc.</find>
+      <find>applicationCon-re</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/Mythred.java" />
         <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyCallable.java" />
-        <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyRunable.java" />
         <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MainTestThred.java" />
         <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredsafe/MainSafeTest.java" />
         <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredsafe/Ticket.java" />
+        <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/MainThredDead.java" />
+        <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/ThredDeadRunnable.java" />
+        <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredcommunication/MainOddEvenTest.java" />
+        <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredcommunication/ThredOddAndEven.java" />
+        <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyRunable.java" />
+        <option value="$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/lock/Reentranlock.java" />
         <option value="$PROJECT_DIR$/thred-create-demo/src/main/resources/thredKnowleage.txt" />
+        <option value="$PROJECT_DIR$/miaosha-create-demo/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/config/jdbc.properties" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/config/redis-config.properties" />
+        <option value="$PROJECT_DIR$/codegenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/codegenerator/src/main/java/GeneratorSqlmap.java" />
+        <option value="$PROJECT_DIR$/codegenerator/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillOrderExample.java" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/dao/TbSeckillOrderMapper.java" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/dao/TbSeckillGoodsMapper.java" />
+        <option value="$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/applicationContext-service.xml" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -71,11 +477,25 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="miaosha-duoxiancheng-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -92,47 +512,63 @@
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="thred-create-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="thred-create-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="thred-create-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="thred-create-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="thred-create-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="budi" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="thred-create-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="budi" type="462c0819:PsiDirectoryNode" />
-              <item name="thredsafe" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha-duoxiancheng-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,13 +581,26 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596356680328" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597706772160" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\testPro\javabasic\miaosha-duoxiancheng-demo\src\main\resources\spring" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\testPro\javabasic\miaosha-duoxiancheng-demo\src\main\resources\mapper" />
+      <recent name="E:\testPro\javabasic\miaosha-duoxiancheng-demo\src\main\com\budi\dao" />
+      <recent name="E:\testPro\javabasic\miaosha-duoxiancheng-demo\src\main\com\budi\pojo" />
+      <recent name="E:\testPro\javabasic\codegenerator\src\main\resources" />
+      <recent name="E:\testPro\javabasic\codegenerator\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,13 +614,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainSafeTest">
-    <configuration name="MainSafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.budi.thredsafe.MainSafeTest" />
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.57">
+    <configuration name="GeneratorSqlmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneratorSqlmap" />
+      <module name="codegenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainOddEvenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.budi.thredcommunication.MainOddEvenTest" />
       <module name="thredcreatedemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.budi.thredsafe.*" />
+          <option name="PATTERN" value="com.budi.thredcommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +648,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.budi.thred.MyCallable" />
+    <configuration name="MainThredDead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.budi.threddead.MainThredDead" />
       <module name="thredcreatedemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.budi.thred.*" />
+          <option name="PATTERN" value="com.budi.threddead.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +661,108 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reentranlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.budi.lock.Reentranlock" />
+      <module name="thredcreatedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.budi.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.57" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="miaoshaduoxianchengdemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_57_javabasic" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55704" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="miaoshaduoxianchengdemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainOddEvenTest" />
+      <item itemvalue="Application.MainTestThred" />
+      <item itemvalue="Application.MainThredDead" />
+      <item itemvalue="Application.Reentranlock" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.57" />
+      <item itemvalue="Application.GeneratorSqlmap" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainSafeTest" />
+        <item itemvalue="Application.GeneratorSqlmap" />
+        <item itemvalue="Application.Reentranlock" />
         <item itemvalue="Application.MainTestThred" />
-        <item itemvalue="Application.MyCallable" />
+        <item itemvalue="Application.MainOddEvenTest" />
+        <item itemvalue="Application.MainThredDead" />
       </list>
     </recent_temporary>
   </component>
@@ -223,43 +776,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596289213438</updated>
-      <workItem from="1596289223166" duration="8784000" />
+      <workItem from="1596289223166" duration="38444000" />
     </task>
+    <task id="LOCAL-00001" summary="thred lock">
+      <created>1596361239257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596361239258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8784000" />
+    <option name="totallyTimeSpent" value="38444000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Image Layers" />
       <window_info id="Designer" />
-      <window_info id="UI Designer" />
+      <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.492635" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.3737705" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" weight="0.4918033" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5613748" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="right" id="Maven" weight="0.32980332" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -268,11 +841,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thred lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="thred lock" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/thred-create-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_251/src.zip!/java/lang/Thread.java">
@@ -293,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyRunable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -310,10 +877,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MainTestThred.java">
+    <entry file="jar://D:/Java/jdk1.8.0_251/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="-1786">
+          <caret line="219" column="31" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_251/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2556">
+          <caret line="1545" column="17" lean-forward="true" selection-start-line="1545" selection-start-column="17" selection-end-line="1545" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredsafe/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -322,22 +903,253 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredsafe/MainSafeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="180">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredsafe/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/ThredDeadRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="66">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/threddead/MainThredDead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredcommunication/ThredOddAndEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="110" column="42" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thredcommunication/MainOddEvenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#314#420#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#456#562#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MyRunable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/thred/MainTestThred.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/java/com/budi/lock/Reentranlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/miaosha_create_demo_war_exploded/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-create-demo/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thred-create-demo/src/main/resources/thredKnowleage.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/WEB-INF/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2234">
+          <caret line="126" column="32" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="32" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="e#2997#3188#0" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrepository/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/config/redis-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenrepository/org/mybatis/generator/mybatis-generator-core/1.3.3/mybatis-generator-core-1.3.3.jar!/org/mybatis/generator/api/MyBatisGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1491">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/mapper/TbSeckillOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/dao/TbSeckillOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/dao/TbSeckillGoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegenerator/src/main/java/GeneratorSqlmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegenerator/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegenerator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillOrderExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillGoodsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#981#997#0" expanded="true" />
+            <element signature="e#1031#1044#0" expanded="true" />
+            <element signature="e#1083#1101#0" expanded="true" />
+            <element signature="e#1140#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/webapp/seckill-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2574" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha-duoxiancheng-demo/src/main/com/budi/pojo/TbSeckillGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -347,10 +1159,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>miaoshaduoxianchengdemo:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -358,7 +1172,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -393,12 +1207,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>javabasic</last-edited>
+          <last-edited>miaoshaduoxianchengdemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -416,6 +1229,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
